@@ -1,0 +1,35 @@
+@mixin roboto-text{
+  font:{
+    family: Roboto;
+    size: 15px/24px;
+  }
+  color: #999999;
+}
+
+@mixin Kaushian-text{
+  font:{
+    family: 'Kaushan Script';
+    size: 24px;
+  }
+  color: #333333;
+}
+
+@mixin Moster-text{
+  font:{
+    family: Montserrat;
+    weight: bold;
+    size: 30px;
+  }
+  color: #333333;
+}
+
+@mixin after-block($color, $top, $bottom) {
+  &:after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: $color;
+    margin: $top auto $bottom;
+  }
+}

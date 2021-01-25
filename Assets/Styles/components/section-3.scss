@@ -1,0 +1,29 @@
+.third{
+  background-color: #95e1d3;
+  //padding: 90px 0;
+  .container{
+    padding: 0 360px;
+    .flexible{
+      display: flex;
+      div{
+        margin:auto;
+        text-align: center;
+        width: 20%;
+        border-left: 1px solid #b5eae0;
+        border-right: 1px solid #b5eae0;
+        p{
+          font: 14px 'Montserrat',sans-serif;
+          color: white;
+          text-transform: uppercase;
+          margin-bottom: 90px;
+        }
+        .number{
+          font: bold 72px/72px 'Montserrat', sans-serif;
+          margin-bottom: 30px;
+          color: white;
+          margin-top: 90px;
+        }
+      }
+    }
+  }
+}

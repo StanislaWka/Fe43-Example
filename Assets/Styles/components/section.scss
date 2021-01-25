@@ -1,0 +1,31 @@
+.second {
+  padding: 90px 0 110px;
+
+  .container {
+    padding: 0 360px;
+
+    .second-texting {
+      text-align: center;
+
+      .header {
+        @include Kaushian-text;
+        margin-bottom: 25px;
+      }
+
+      .article {
+        @include Moster-text;
+        @include after-block(#f38181, 40px, 50px);
+      }
+
+      .texting {
+        @include roboto-text;
+        margin-bottom: 105px;
+      }
+    }
+
+    .pictures {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

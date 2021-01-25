@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: sans-serif; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration-skip-ink: auto;
+  text-decoration: none; }
+
+.first {
+  background-image: linear-gradient(to bottom, rgba(244, 139, 130, 0.9) 0%, rgba(244, 140, 130, 0.9) 0%, rgba(252, 226, 138, 0.9) 100%), url("../Images/picture.png");
+  background-color: #fce38a;
+  padding: 29px 0; }
+  .first .container {
+    padding: 0 360px; }
+    .first .container .first-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 180px; }
+      .first .container .first-header .mogo {
+        font: bold 30px/30px 'Montserrat', sans-serif;
+        color: white; }
+      .first .container .first-header .nav-bar {
+        padding-top: 11px;
+        gap: 10px; }
+        .first .container .first-header .nav-bar a {
+          font: 14px 'Montserrat', sans-serif;
+          color: white;
+          margin-right: 40px; }
+        .first .container .first-header .nav-bar:hover:after {
+          content: '';
+          display: block;
+          width: 60px;
+          height: 2px;
+          background-color: #fce38a;
+          margin: 2px auto 2px; }
+    .first .container .preview {
+      width: 100%;
+      text-align: center; }
+      .first .container .preview p {
+        font: 72px 'Kaushan Script', cursive;
+        color: white; }
+      .first .container .preview .big {
+        font: bold 150px/140px 'Montserrat', sans-serif;
+        text-transform: uppercase; }
+      .first .container .preview .after-white:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        background-color: white;
+        margin: 73px auto 50px; }
+    .first .container button {
+      border: 2px solid white;
+      background-color: transparent;
+      padding: 12px 30px;
+      font: bold 14px 'Montserrat', sans-serif;
+      color: white;
+      text-align: center;
+      margin-bottom: 157px; }
+  .first .first-footer {
+    display: flex;
+    justify-content: space-between; }
+    .first .first-footer div:before {
+      content: '';
+      display: block;
+      width: 280px;
+      margin-bottom: 25px;
+      height: 2px;
+      background-color: #fce38a; }
+    .first .first-footer div a {
+      font: 18px 'Montserrat', sans-serif;
+      color: #fbf3dc; }
+    .first .first-footer div span {
+      font: bold 24px/24px 'Montserrat', sans-serif;
+      color: #fbf3dc; }
+    .first .first-footer div div:hover {
+      color: white; }
+
+.second {
+  padding: 90px 0 110px; }
+  .second .container {
+    padding: 0 360px; }
+    .second .container .second-texting {
+      text-align: center; }
+      .second .container .second-texting .header {
+        font-family: 'Kaushan Script';
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 25px; }
+      .second .container .second-texting .article {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        color: #333333; }
+        .second .container .second-texting .article:after {
+          content: '';
+          display: block;
+          width: 60px;
+          height: 2px;
+          background-color: #f38181;
+          margin: 40px auto 50px; }
+      .second .container .second-texting .texting {
+        font-family: Roboto;
+        font-size: 15px/24px;
+        color: #999999;
+        margin-bottom: 105px; }
+    .second .container .pictures {
+      display: flex;
+      justify-content: space-between; }
+
+.third {
+  background-color: #95e1d3; }
+  .third .container {
+    padding: 0 360px; }
+    .third .container .flexible {
+      display: flex; }
+      .third .container .flexible div {
+        margin: auto;
+        text-align: center;
+        width: 20%;
+        border-left: 1px solid #b5eae0;
+        border-right: 1px solid #b5eae0; }
+        .third .container .flexible div p {
+          font: 14px 'Montserrat',sans-serif;
+          color: white;
+          text-transform: uppercase;
+          margin-bottom: 90px; }
+        .third .container .flexible div .number {
+          font: bold 72px/72px 'Montserrat', sans-serif;
+          margin-bottom: 30px;
+          color: white;
+          margin-top: 90px; }
