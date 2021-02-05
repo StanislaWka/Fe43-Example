@@ -1,0 +1,103 @@
+.sixth{
+  padding: 110px 0 120px;
+  background-color: #ffffff;
+  .container{
+    padding: 0 360px;
+    .sixth-texting{
+      text-align: center;
+      .header {
+        @include Kaushian-text;
+        margin-bottom: 25px;
+      }
+
+      .article {
+        @include Moster-text;
+        @include after-block(#f38181, 45px, 45px);
+      }
+
+      .texting {
+        @include roboto-text;
+        margin-bottom: 92px;
+      }
+    }
+    .flexible {
+      display: flex;
+      justify-content: space-between;
+      gap:30px;
+      .picture{
+        width: 50%;
+      }
+      .accordion{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        .first-article-flex{
+          padding: 15px 20px;
+          border: 1px solid #e5e5e5;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .pic-text-flex{
+            display: flex;
+            align-items: baseline;
+            gap:13px;
+            .pic{
+              color: #95e1d3;
+              font-size: 24px;
+            }
+            .text{
+              text-transform: uppercase;
+              font: bold 14px 'Montserrat', sans-serif;
+            }
+          }
+        }
+        .second-text{
+          padding: 20px 20px;
+          border: 1px solid #e5e5e5;
+          p{
+            font: 300 15px 'Roboto', italic;
+            line-height: 24px;
+          }
+        }
+        .second-pic-text{
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 20px;
+          border: 1px solid #e5e5e5;
+          .pic-text-flex{
+            display: flex;
+            align-items: baseline;
+            gap: 13px;
+            .pic{
+              color: #95e1d3;
+              font-size: 24px;
+            }
+            .text{
+              text-transform: uppercase;
+              font: bold 14px 'Montserrat', sans-serif;
+            }
+          }
+        }
+        .third-pic-text{
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 20px;
+          border: 1px solid #e5e5e5;
+          .pic-text-flex{
+            display: flex;
+            align-items: baseline;
+            gap:13px;
+            .pic{
+              color: #95e1d3;
+              font-size: 24px;
+            }
+            .text{
+              text-transform: uppercase;
+              font: bold 14px 'Montserrat', sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}

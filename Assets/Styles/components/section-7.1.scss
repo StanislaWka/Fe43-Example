@@ -1,0 +1,47 @@
+.seventh{
+  background-color: #f8f8f8;
+  padding: 70px 0;
+  .container{
+    padding: 0 360px;
+    .jon-doe-flex{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+      .arrow {
+        font-size: 60px;
+        color: #cccccc;
+        margin-right:75px;
+      }
+      .icon{
+        font-size: 100px;
+        color: #95e1d3;
+      }
+      .text-plus-Joe{
+        margin-right: 75px;
+        p{
+          font: 300 24px 'Roboto', sans-serif;
+          font-style: italic;
+          line-height: 36px;
+          margin-bottom: 25px;
+        }
+        .flexible{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .elem{
+            height: 3px;
+            width: 60px;
+            background-color: #f38181;
+          }
+          .Joe{
+            p {
+              @include Kaushian-text;
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

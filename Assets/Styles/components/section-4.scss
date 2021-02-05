@@ -1,3 +1,52 @@
 .fourth{
-  padding: 30px;
+  padding: 110px 0 120px;
+  .container{
+    text-align: center;
+    padding: 0 360px;
+    .header{
+      @include Kaushian-text;
+      margin-bottom: 20px;
+    }
+    .arcticle{
+      @include Moster-text;
+      @include after-block(#f38181, 42px, 66px);
+    }
+    .flexible{
+      display: flex;
+      flex-direction: column;
+      .first-arcticle{
+        border-bottom: 1px solid  #e5e5e5;
+        margin-bottom: 53px;
+      }
+      .first-arcticle, .second-arcticle{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        .flex {
+          display: flex;
+          flex-direction: row;
+          gap: 11px;
+          .icon {
+            font-size: 25px;
+            color: #95e1d3;
+          }
+          div {
+            .big {
+              font: bold 14px 'Montserrat', sans-serif;
+              margin-bottom: 15px;
+              text-align: left;
+              color: black;
+              text-transform: uppercase;
+            }
+
+            p {
+              text-align: left;
+              @include roboto-text;
+              margin-bottom: 53px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

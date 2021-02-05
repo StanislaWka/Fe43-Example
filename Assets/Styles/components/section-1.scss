@@ -1,0 +1,106 @@
+@import "Assets/Styles/Utilites/_module.sass";
+
+//font-family: 'Kaushan Script', cursive;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+.first {
+  background-image: linear-gradient(to bottom, rgba(244, 139, 130, 0.9) 0%, rgba(244, 140, 130, 0.9) 0%, rgba(252, 226, 138, 0.9) 100%), url("../Images/picture.png");
+  background-color: #fce38a;
+  padding: 29px 0;
+
+  .container {
+    padding: 0 360px;
+
+    .first-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 180px;
+
+      .mogo {
+        font: bold 30px/30px 'Montserrat', sans-serif;
+        color: white;
+      }
+
+      .nav-bar {
+        padding-top: 11px;
+        gap: 10px;
+
+        a {
+          font: 14px 'Montserrat', sans-serif;
+          color: white;
+          margin-right: 40px;
+        }
+
+        &:hover {
+          @include after-block(#fce38a, 2px, 2px);
+        }
+      }
+    }
+
+    .preview {
+      width: 100%;
+      text-align: center;
+
+      p {
+        font: 72px 'Kaushan Script', cursive;
+        color: white;
+      }
+
+      .big {
+        font: bold 150px/140px 'Montserrat', sans-serif;
+        text-transform: uppercase;
+      }
+
+      .after-white {
+        @include after-block(white, 73px, 50px)
+      }
+    }
+
+    //.big
+    //}
+    button {
+      border: 2px solid white;
+      background-color: transparent;
+      padding: 12px 30px;
+      font: bold 14px 'Montserrat', sans-serif;
+      color: white;
+      text-align: center;
+      margin-bottom: 157px;
+    }
+  }
+
+  .first-footer {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      &:before {
+        content: '';
+        display: block;
+        width: 280px;
+        margin-bottom: 25px;
+        height: 2px;
+        background-color: #fce38a;
+      }
+
+      a {
+        font: 18px 'Montserrat', sans-serif;
+        color: #fbf3dc;
+      }
+
+      span {
+        font: bold 24px/24px 'Montserrat', sans-serif;
+        color: #fbf3dc;
+      }
+
+      div:hover {
+        color: white;
+      }
+
+
+    }
+  }
+
+}
+

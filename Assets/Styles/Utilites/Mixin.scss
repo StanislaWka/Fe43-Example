@@ -1,14 +1,17 @@
-@mixin roboto-text{
+$font: Roboto, sans-serif;
+
+@mixin roboto-text(){
   font:{
-    family: Roboto;
-    size: 15px/24px;
+    family: $font;
+    size: 15px;
   }
+  line-height: 24px;
   color: #999999;
 }
 
 @mixin Kaushian-text{
   font:{
-    family: 'Kaushan Script';
+    family: 'Kaushan Script', sans-serif;
     size: 24px;
   }
   color: #333333;
@@ -16,10 +19,11 @@
 
 @mixin Moster-text{
   font:{
-    family: Montserrat;
+    family: Montserrat, sans-serif;
     weight: bold;
     size: 30px;
   }
+  line-height: 20px;
   color: #333333;
 }
 

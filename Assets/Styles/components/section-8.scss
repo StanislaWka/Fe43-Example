@@ -1,0 +1,60 @@
+.eighths {
+  padding: 100px 0 120px;
+
+  .container {
+    padding: 0 360px;
+
+    .eights-texting {
+      text-align: center;
+
+      .header {
+        @include Kaushian-text;
+        margin-bottom: 25px;
+      }
+
+      .article {
+        @include Moster-text;
+        @include after-block(#f38181, 45px, 50px);
+      }
+
+      .texting {
+        @include roboto-text;
+        margin-bottom: 95px;
+      }
+    }
+
+    .flexible {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+
+      .picture\+text {
+        width: 380px;
+        margin-bottom: 30px;
+        text-align: center;
+        img{
+          height: 470px;
+        }
+        .image{
+          margin-bottom: 30px;
+        }
+        .text{
+          .name{
+            font: bold 14px 'Montserrat',sans-serif;
+            margin-bottom: 15px;
+          }
+          .work{
+            font: 300 15px 'Roboto',sans-serif;
+            font-style: italic;
+            color:#999999;
+          }
+        }
+      }
+
+    }
+  }
+  .container-2{
+    background-color: #f8f8f8;
+    padding: 70px 245px;
+  }
+}

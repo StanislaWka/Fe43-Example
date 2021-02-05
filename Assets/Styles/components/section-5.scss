@@ -1,0 +1,33 @@
+.fifth{
+  background-image: url("../Images/5.png");
+  padding: 110px 0 0;
+  .container{
+    padding:0 360px;
+    text-align: center;
+  }
+  .header{
+    @include Kaushian-text;
+    margin-bottom: 24px;
+  }
+  .arcticle{
+    @include Moster-text;
+    @include after-block(#f38181, 38px, 45px);
+  }
+  .flex-picture{
+    display: flex;
+    justify-content: center;
+  }
+  .pic{
+    img{
+      width:  470px;
+    }
+  }
+  .iphone{
+    position: absolute;
+    right: 620px;
+    top: 350%;
+    img{
+      width: 220px;
+    }
+  }
+}

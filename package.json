@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass main.sass Assets/css/style.css"
+    "build": "node-sass Assets/Styles/main.scss Assets/css/style.css"
   },
   "author": "",
   "license": "ISC",
